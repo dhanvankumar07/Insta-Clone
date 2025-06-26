@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+      <!-- Left Sidebar Navigation -->
+      <nav class="left-sidebar">
+        <div class="logo">
+          <i class="fab fa-instagram"></i>
+          <h1>Instagram</h1>
+        </div>
+        <!-- Add this inside your left-sidebar div, below the nav-links -->
+        <div class="search-container">
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" class="search-input" />
+          </div>
+          <div class="search-results">
+            <!-- Search results will appear here -->
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li class="active"><i class="fas fa-home"></i><span>Home</span></li>
+          <li><i class="fas fa-search"></i><span>Search</span></li>
+          <li><i class="fas fa-compass"></i><span>Explore</span></li>
+          <li><i class="fas fa-film"></i><span>Reels</span></li>
+          <li><i class="fas fa-envelope"></i><span>Messages</span></li>
+          <li><i class="fas fa-heart"></i><span>Notifications</span></li>
+          <li><i class="fas fa-plus-square"></i><span>Create</span></li>
+          <li><i class="fas fa-user"></i><span>Profile</span></li>
+          <li class="theme-toggle">
+            <i class="fas fa-moon"></i><span>Theme</span>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Stories Section -->
+        <div class="stories">
+          <div class="story">
+            <div class="story-avatar">
+              <img src="images/my-story.jpg" alt="User" />
+            </div>
+            <span>your_story</span>
+          </div>
+          <div class="story">
+            <div class="story-avatar">
+              <img src="images/user-0.1.jpg" alt="User" />
+            </div>
+            <span>Stela-Lol</span>
+          </div>
+          <div class="story">
+            <div class="story-avatar">
+              <img src="images/user-0.2.jpg" alt="User" />
+            </div>
+            <span>Samayra_Official</span>
+          </div>
+          <div class="story">
+            <div class="story-avatar">
+              <img src="images/user-0.3.jpg" alt="User" />
+            </div>
+            <span>Avatar_Official</span>
+          </div>
+          <div class="story">
+            <div class="story-avatar">
+              <img src="images/user-0.1.jpg" alt="User" />
+            </div>
+            <span>Stela_Sis</span>
+          </div>
+        </div>
+
+        <!-- Posts Section -->
+        <div class="posts">
+          <!-- Post 1 -->
+          <div class="post">
+            <div class="post-header">
+              <div class="post-user">
+                <img src="images/user-0.1.jpg" alt="User" />
+                <span>Stela-Lol</span>
+              </div>
+              <div class="post-options">
+                <i class="fas fa-ellipsis-h"></i>
+                <div class="post-options-menu">
+                  <button>Report</button>
+                  <button>Unfollow</button>
+                  <button>Copy Link</button>
+                  <button>Cancel</button>
+                </div>
+              </div>
+            </div>
+            <div class="post-image">
+              <img src="images/user-0.1-post.jpg" alt="Post" />
+            </div>
+            <div class="post-actions">
+              <div class="actions-left">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
+              </div>
+              <div class="actions-right">
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="post-likes">
+              <span>1,234 likes</span>
+            </div>
+            <div class="post-caption">
+              <span><strong>Stela-Lol</strong> Smooth 😊</span>
+            </div>
+            <div class="comments">
+              <!-- Comments will appear here -->
+            </div>
+            <div class="post-time">
+              <span>2 HOURS AGO</span>
+            </div>
+            <div class="comment-input-container">
+              <input
+                type="text"
+                class="comment-input"
+                placeholder="Add a comment..."
+              />
+              <button class="comment-btn">Post</button>
+            </div>
+          </div>
+
+          <!-- Post 2 -->
+          <div class="post">
+            <div class="post-header">
+              <div class="post-user">
+                <img src="images/user-0.2.jpg" alt="User" />
+                <span>Samayra_Official</span>
+              </div>
+              <div class="post-options">
+                <i class="fas fa-ellipsis-h"></i>
+                <div class="post-options-menu">
+                  <button>Report</button>
+                  <button>Unfollow</button>
+                  <button>Copy Link</button>
+                  <button>Cancel</button>
+                </div>
+              </div>
+            </div>
+            <div class="post-image">
+              <img src="images/user-0.2- post.jpg" alt="Post" />
+            </div>
+            <div class="post-actions">
+              <div class="actions-left">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>
+              </div>
+              <div class="actions-right">
+                <i class="far fa-bookmark"></i>
+              </div>
+            </div>
+            <div class="post-likes">
+              <span>567 likes</span>
+            </div>
+            <div class="post-caption">
+              <span><strong>user2</strong> Be a amazing human🤗 </span>
+            </div>
+            <div class="comments">
+              <!-- Comments will appear here -->
+            </div>
+            <div class="post-time">
+              <span>5 HOURS AGO</span>
+            </div>
+            <div class="comment-input-container">
+              <input
+                type="text"
+                class="comment-input"
+                placeholder="Add a comment..."
+              />
+              <button class="comment-btn">Post</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Right Sidebar -->
+      <aside class="right-sidebar">
+        <div class="user-profile">
+          <img src="images/my-story.jpg" alt="User" />
+          <div class="user-info">
+            <span class="username">your_username</span>
+            <span class="name">Your Name</span>
+          </div>
+          <span class="switch">Switch</span>
+        </div>
+
+        <div class="suggestions">
+          <div class="suggestions-header">
+            <span>Suggestions For You</span>
+            <span>See All</span>
+          </div>
+
+          <div class="suggestion">
+            <img src="images/user-0.1.jpg" alt="User" />
+            <div class="suggestion-info">
+              <span>user3</span>
+              <span>Followed by user2</span>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+
+          <div class="suggestion">
+            <img src="images/user-0.2.jpg" alt="User" />
+            <div class="suggestion-info">
+              <span>user4</span>
+              <span>New to Instagram</span>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+
+          <div class="suggestion">
+            <img src="images/user-0.3.jpg" alt="User" />
+            <div class="suggestion-info">
+              <span>user5</span>
+              <span>Followed by user1</span>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+        </div>
+
+        <footer class="right-footer">
+          <div class="links">
+            <a href="#">About</a>
+            <a href="#">Help</a>
+            <a href="#">Press</a>
+            <a href="#">API</a>
+            <a href="#">Jobs</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Locations</a>
+            <a href="#">Top Accounts</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Language</a>
+          </div>
+          <div class="copyright">© 2023 INSTAGRAM CLONE</div>
+        </footer>
+      </aside>
+
+      <!-- Mobile Bottom Navigation -->
+      <nav class="mobile-nav">
+        <i class="fas fa-home"></i>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-plus-square create-post-btn"></i>
+        <i class="fas fa-film"></i>
+        <i class="fas fa-user"></i>
+      </nav>
+    </div>
+
+    <!-- Post Modal -->
+    <div class="post-modal">
+      <div class="modal-content">
+        <div class="modal-image">
+          <img src="images/user-0.2- post.jpg" alt="Post" />
+        </div>
+        <div class="modal-sidebar">
+          <!-- Post details would go here -->
+        </div>
+      </div>
+      <span class="close-modal">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
